@@ -7,25 +7,27 @@ Aplicación construida con **Node.js** y **Express** para manejar una lista de c
 # 📦 Instalación
 
 A. Clona este repositorio:
+
 ```bash
 git clone https://github.com/yanez92-K/CafeteriaNanacao-testing.git
 ```
 
 B. Instala las dependencias:
 
-``` bash
+```bash
 npm install
 ```
 
 Este proyecto utiliza las siguientes librerías:
 
-* express
-* jest
-* supertest
-* faker
-* @babel/preset-env (devDependency)
+- express
+- jest
+- supertest
+- faker
+- @babel/preset-env (devDependency)
 
 # 🧪 Testing
+
 La app cuenta con pruebas unitarias y de integración para cubrir las operaciones principales del CRUD:
 
 ```
@@ -42,6 +44,6 @@ DELETE /cafes/:id
 
 Puedes ver el reporte ejecutando:
 
-``` bash 
+```bash
 npm test
 ```
